@@ -25,6 +25,6 @@ public class MyDataController {
     @DeleteMapping("/delete")
     public String delete(int id){
         mydataServices.deleteById(id);
-      return "it has been deleted";
+      return "it has been delete";
     }
 }
